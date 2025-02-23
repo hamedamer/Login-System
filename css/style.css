@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(36, 53, 63);
+}
+
+.gruop,
+.navbar {
+  box-shadow: -5px 5px 40px 1px rgba(0, 0, 0, 1) !important;
+  background-color: transparent !important;
+}
+.navbar {
+  color: rgb(36, 53, 63) !important;
+}
+.navbar-brand button {
+  color: rgb(36, 53, 63);
+}
+
+.gruop h1 {
+  font-weight: 500;
+  line-height: 48px;
+  color: #17a2b8;
+  font-size: 40px;
+  font-family: "Titillium Web", sans-serif;
+}
+input {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+input::placeholder {
+  color: rgb(182, 182, 182) !important;
+}
+
+a{
+    text-decoration:none ;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+}

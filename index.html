@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="gruop col-sm-8 col-md-8 my-5 p-5 text-center">
+          <h1 class="mb-1">Smart Login System</h1>
+          <input
+            type="text"
+            class="form-control my-3"
+            id="Name"
+            placeholder="Enter your Name"
+          />
+          <input
+            type="email"
+            class="form-control my-3"
+            id="email"
+            placeholder="Enter your Email"
+          />
+          <input
+            type="password"
+            class="form-control my-3"
+            id="password"
+            placeholder="Enter your Password"
+          />
+
+          <div class="succ">
+          </div>
+          <button onclick="adduser()" class="btn btn-outline-info form-control my-3" type="submit">
+            Sign Up
+          </button>
+          <p class="text-white">You have an account? <a href="Login.html">Signin</a> </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
